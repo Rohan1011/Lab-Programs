@@ -1,4 +1,5 @@
-8. Write a MPI Program demonstration of MPI_Scatter and MPI_Gather. #include <stdio.h>
+8. Write a MPI Program demonstration of MPI_Scatter and MPI_Gather. 
+#include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
 
