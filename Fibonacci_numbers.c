@@ -42,3 +42,9 @@ int main()
     free(fib_array);
     return 0;
 }
+
+user@fedora:$ gedit prog3.c 
+user@fedora:$ gcc -fopenmp prog3.c -o program 
+user@fedora:~$ ./program 
+Enter the number of Fibonacci numbers to compute: 9 
+Fibonacci numbers: fib(0) = 0 fib(1) = 1 fib(2) = 1 fib(3) = 2 fib(4) = 3 fib(5) = 5 fib(6) = 8 fib(7) = 13 fib(8) = 21
