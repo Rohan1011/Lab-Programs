@@ -27,4 +27,10 @@ int main(int argc, char *argv[])
     }
     MPI_Finalize(); // Finalize MPI
     return 0;
+
 }
+
+user@fedora:$ mpicc prog5_mpi.c -o prog5_mpi 
+user@fedora:$ mpirun -np 2  ./prog5_mpi 
+Process 0 sending number 42 to process 1 
+Process 1 received number 42 from process 0
