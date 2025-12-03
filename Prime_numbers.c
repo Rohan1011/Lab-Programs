@@ -40,3 +40,9 @@ int main()
     printf("Time to compute numbers Parallel: %f\n", cpu_time);
     return 0;
 }
+user@fedora:$ gedit prog4.c 
+user@fedora:$ gcc -fopenmp prog4.c -o program 
+user@fedora:~$ ./program the range of numbers is 1 to 1000000 
+--------------------------------- 
+Time to compute prime numbers serially: 0.104273 
+Time to compute numbers Parallel: 0.270876
